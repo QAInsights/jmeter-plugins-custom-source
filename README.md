@@ -9,12 +9,12 @@ Use this Dockerfile to build a JMeter Plugins repo and host it in your org.
 * Run `docker build -t jmeter-plugins-custom-source .`
 * Run `docker run -p 80:80 <>`
 * Open `user.properties` from `JMETER_HOME\bin`
-* Add jpgc.repo.address=<IP_ADDRESS>/baserepo.json
+* Add `jpgc.repo.address=<IP_ADDRESS>/baserepo.json`
 * Restart JMeter
 
 # 🏃‍♀️ Steps to run
 
 * `docker run -p 80:80 -d qainsights/jmeter-plugin-custom-source`
 * Open `user.properties` from `JMETER_HOME\bin`
-* Add jpgc.repo.address=<IP_ADDRESS>/baserepo.json
+* Add `jpgc.repo.address=<IP_ADDRESS>/baserepo.json`
 * Restart JMeter
